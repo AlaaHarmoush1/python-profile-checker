@@ -9,7 +9,7 @@ graduated = input("Are you graduated? (yes or no): ").lower()
 
 if age <= 25 and gpa >= 3.5 and graduated == "yes":
     print(f"You are eligible for a scholarship in {field_of_interest} field")
-elif age < 30 and gpa >= 2.5:
+elif age < 30 and gpa >= 2.5 and age > 25:
     print(f"You are eligible for an internship ")
 else:
     print("apply again later")
